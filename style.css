@@ -1,0 +1,53 @@
+body{
+    background-color: darkkhaki;
+    padding: 0 10% 0 10%;
+}
+#search-btn{
+    background-color: rgb(16, 16, 58);
+    color: white;
+}
+#all-food{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.food-item{
+    border: crimson solid 3px;
+    border-radius: 15px;
+}
+.food-image{
+    background-color: burlywood;
+    height: 150px;
+    border-radius: 10px;
+    width: 30px;
+    height: 150px;
+}
+.food-name{
+    background-color: whitesmoke;
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px;
+}
+#ingredient-div{
+    display: none;
+    background-color: burlywood;
+    border: crimson solid 5px;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+}
+#image{
+    width: 280px;
+    height: 150px;
+    border-radius: 10px;
+}
+#name{
+    width: 150px;
+    height: 60px;
+    border-radius: 6px;
+}
+#ingredient-img{
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+}
